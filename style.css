@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+header{
+    padding-top: 20px;
+    width: 100%;
+    height: 290px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    background: #252525;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.povsem2{
+    font-size: 36px;
+    padding-right: 40px;
+}
+.povsem{
+    text-align: center;
+    width: auto;
+}
+.navbar{
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+.navbar a{
+    font-size: 20px;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-nav > div{
+    margin: 2px;
+    transition: all .50s ease;
+}
+.navbar-nav div:hover{
+    box-shadow: 0 0 80px #fff;
+}
+.home{
+    width: 220px;
+    height: 100px;
+    background: #3C80ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery{
+    background: #5BA518;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oplata{
+    background: #D1AC27;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.akcii{
+    background: #5132AA;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statia{
+    background: #D24726;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    background: #AB328F;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yslugi{
+    margin-top: 20px;
+    display: block;
+    width: 280px;
+    height: 630px;
+}
+.yslugi div{
+    margin: 7px;
+}
+.span-ysluga{
+    padding-left: 4px;
+}
+.ysluga1{
+    width: 270px;
+    height: 120px;
+    background: #BA1615;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ysluga2{
+    width: 270px;
+    height: 120px;
+    background: #BA1615;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ysluga3{
+    width: 270px;
+    height: 120px;
+    background: #BA1615;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ysluga4{
+    width: 270px;
+    height: 120px;
+    background: #BA1615;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ysluga5{
+    width: 270px;
+    height: 120px;
+    background: #BA1615;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-main-img{
+    height: 340px;
+    width: 960px;
+    margin-top: 28px;
+    margin-left: 50px;
+}
+/* Скопировал */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+      display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+.text {
+    font-size: 45px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 300px;
+}  
+.text-p{
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 250px;
+}  
+.span-p{
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20px;
+} 
+.btn{
+    padding: 12px;
+    background-color: #4CB82C;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 120px;
+    margin-left: 45%;
+    cursor: pointer;
+    transition: all .50s ease;
+    border: 2px solid #fff;
+
+}
+.btn:hover{
+    background: transparent;
+    transform: scale(1.1);
+}
+.block-main{
+    height: 90px;
+    width: 960px;
+    margin-left: 25%;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+.block1-main{
+    height: 80px;
+    width: 760px;
+    background: #D1AC27;
+    margin: 2px;
+    text-align: center;
+    padding: 20px;
+}
+.block2-main{
+    height: 80px;
+    width: 760px;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+    background: #3C80ED;
+}
+.main-1{
+    width: 960px;
+    height: 220px;
+    text-align: center;
+    font-size: 34px;
+    margin-left: 25%;
+}
+.main-1-div{
+    display: flex;
+    justify-content: center;
+}
+.main-1-div div{
+    margin: 10px;
+
+}
+.div-1-main{
+    width: 260px;
+    height: 160px;
+    font-size: 15px;
+    background-color: #5BA518;
+}
+.div-2-main{
+    width: 260px;
+    height: 165px;
+    font-size: 15px;
+    background-color: #5132AA
+}
+.div-3-main{
+    width: 260px;
+    height: 160px;
+    font-size: 15px;
+    background-color: #D24726;
+}
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist a{
+    font-size: 30px;
+    color: #757575;
+    background: #fff;
+    border-radius: 4px;
+}
+.navlist a i{
+    color: #757575;
+}
